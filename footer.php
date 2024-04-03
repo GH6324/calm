@@ -1,6 +1,6 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 
-<footer id="footer" role="contentinfo" class="container mt-8 flex flex-col sm:flex-row justify-between text-[#747d8c] p-2 text-center items-center">
+<footer id="footer" role="contentinfo" class="container mt-8 flex flex-col sm:flex-row justify-between text-[#747d8c] p-2 text-center items-center box-border">
     <div class="flex flex-col sm:flex-row">
         <div>Copyright &copy; <?php echo date('Y'); ?> All Rights Reserved .</div>
         <div><?php _e('Theme <a href="https://xiaopanglian.com" class="text-gray-600 no-underline">Calm</a> .'); ?></div>

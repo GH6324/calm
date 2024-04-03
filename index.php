@@ -49,7 +49,7 @@ if (!defined('__TYPECHO_ROOT_DIR__'))
                             <?php $this->widget("Widget_Archive@calm" . $topCid, "pageSize=1&type=post", "cid=" . $topCid)->to($item); ?>
                             <article class="flex flex-row h-12 items-center" itemscope itemtype="http://schema.org/BlogPosting">
                                 <span class="text-red mr-2">
-                                    <span class="bg-red-500 text-white rounded p-1 text-xs">置顶</span>
+                                    <span class="bg-red-500 text-white rounded p-1 text-xs text-nowrap">置顶</span>
                                 </span>
                                 <span class="shrink-0 w-24 whitespace-nowrap">
                                     <?php $item->date(); ?>
@@ -86,15 +86,16 @@ if (!defined('__TYPECHO_ROOT_DIR__'))
                 <div>
                     <?php \Widget\Comments\Recent::alloc()->to($comments); ?>
                     <?php while ($comments->next()): ?>
-                        <div class="flex flex-row h-12 items-center" itemscope itemtype="http://schema.org/BlogPosting">
-                            <h2 class="mr-4">
+                        <div class="flex flex-row h-12 items-center overflow-hidden box-border" itemscope itemtype="http://schema.org/BlogPosting">
+                            <h2 class="mr-1 sm:mr-4">
                                 <a href="<?php $comments->permalink(); ?>"
-                                    class="text-inherit font-thin  underline underline-offset-4 hover:decoration-emerald-600 hover:decoration-2 text-base">
+                                    class="text-inherit font-thin  underline underline-offset-4 hover:decoration-emerald-600 hover:decoration-2 text-base text-nowrap">
                                     <?php $comments->author(false); ?>
-                                </a>：
+                                    ：
+                                </a>
                             </h2>
-                            <span>
-                                <?php $comments->excerpt(35, '...'); ?>
+                            <span class="text-nowrap truncate">
+                                <?php $comments->excerpt(100, '...'); ?>
                             </span>
                         </div>
                     <?php endwhile; ?>

@@ -15,7 +15,7 @@
 
 </header>
 
-<header class="fixed top-0 sm:hidden w-full p-2 bg-[#f1f2f6]">
+<header class="fixed top-0 sm:hidden w-full p-2 bg-[#f1f2f6] box-border shadow">
     <div class="w-full h-12 flex flex-row justify-between">
         <div class="flex flex-row">
             <img src="<?php $this->options->LogoUrl() ?>" class="h-12" />
