@@ -1,0 +1,47 @@
+Arguments: 
+  D:\Program Files\nodejs\node.exe C:\Users\asus\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;D:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;D:\Php8.2.5;D:\Program Files (x86)\NetSarang\Xftp 7\;D:\Program Files (x86)\NetSarang\Xshell 7\;C:\Users\asus\.cargo\bin;C:\Users\asus\AppData\Local\Microsoft\WindowsApps;C:\Users\asus\.dotnet\tools;c:\dapr;C:\Users\asus\.dapr\bin;C:\Users\asus\AppData\Roaming\npm;C:\Users\asus\.dotnet\tools;D:\Tencent\QQGameTempest\Hall.57768\;C:\Users\asus\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\DataGrip 2022.2.4\bin;C:\Users\asus\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\asus\.dotnet\tools;D:\phpEnv\php\php-7.4\;D:\phpEnv\server\mysql\mysql-5.7\bin\;D:\phpEnv\tools\Composer\;C:\Users\asus\.dotnet\tools;D:\Programs\Microsoft VS Code\bin;D:\Programs\Hyper\resources\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.25.34:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+
+npm manifest: 
+  {
+      "name": "typecho_calm",
+      "version": "0.0.1",
+      "description": "",
+      "scripts": {
+          "build": "vite build"
+      },
+      "author": "XiaoPangLian",
+      "license": "ISC",
+      "devDependencies": {
+          "autoprefixer": "^10.4.14",
+          "postcss": "^8.4.23",
+          "prettier": "^2.8.8",
+          "tailwindcss": "^3.3.3",
+          "vite": "^4.4.7",
+          "vite-plugin-prismjs": "^0.0.8"
+      },
+      "dependencies": {
+          "prismjs": "^1.29.0"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

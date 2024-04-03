@@ -1,0 +1,48 @@
+@tailwind base;
+
+@layer base {
+    @font-face {
+        font-display: swap;
+        font-family: HarmonyOS-Sans;
+        src: url('./fonts/HarmonyOS-Sans.woff2') format("truetype");
+    }
+
+    h1 {
+        @apply text-2xl;
+        @apply m-0;
+        @apply font-thin;
+    }
+
+    h2 {
+        @apply text-xl;
+        @apply m-0;
+        @apply font-thin;
+    }
+
+    h3 {
+        @apply text-lg;
+        @apply m-0;
+        @apply font-thin;
+    }
+
+    h4 {
+        @apply text-base;
+        @apply m-0;
+        @apply font-thin;
+    }
+
+    h5 {
+        @apply text-sm;
+        @apply m-0;
+        @apply font-thin;
+    }
+
+    h6 {
+        @apply text-xs;
+        @apply m-0;
+        @apply font-thin;
+    }
+}
+
+@tailwind components;
+@tailwind utilities;

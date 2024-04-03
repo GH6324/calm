@@ -1,0 +1,21 @@
+{
+    "name": "typecho_calm",
+    "version": "0.0.1",
+    "description": "",
+    "scripts": {
+        "build": "vite build"
+    },
+    "author": "XiaoPangLian",
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "^10.4.14",
+        "postcss": "^8.4.23",
+        "prettier": "^2.8.8",
+        "tailwindcss": "^3.3.3",
+        "vite": "^4.4.7",
+        "vite-plugin-prismjs": "^0.0.8"
+    },
+    "dependencies": {
+        "prismjs": "^1.29.0"
+    }
+}
