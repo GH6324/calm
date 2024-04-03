@@ -1,4 +1,8 @@
 <?php
+/**
+ * 主题原作者：https://probberechts.github.io/hexo-theme-cactus/
+ */
+
 if (!defined('__TYPECHO_ROOT_DIR__'))
     exit;
 
